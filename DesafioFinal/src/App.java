@@ -8,19 +8,19 @@ public class App {
         if(imc<17){
             return "Muito abaixo do ideal";
         }
-        if(imc>=17 && imc<=18.49){
+        if(imc>=17 && imc<18.5){
             return "Abaixo do peso ideal";
         }
-        if(imc>=18.5 && imc<=24.99){
+        if(imc>=18.5 && imc<25){
             return "Peso normal";
         }
-        if(imc>=25 && imc<=29.99){
+        if(imc>=25 && imc<30){
             return "Acima do peso ideal";
         }
-        if(imc>=30 && imc<=34.99){
+        if(imc>=30 && imc<35){
             return "Obesidade grau 1";
         }
-        if(imc>=35 && imc<=39.99){
+        if(imc>=35 && imc<40){
             return "Obesidade grau 2";
         }
         if(imc>=40){
